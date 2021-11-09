@@ -1,0 +1,11 @@
+{
+    "name": "charles/build",
+    "require": {
+        "charleshopkinsiv/core": "dev-main"
+    },
+    "autoload": {
+        "psr-4":{
+            "core\\commands\\": "commands/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Charles Hopkins Developer",
+    "description": "I have a passion for technology and building solid systems.",
+    "commands": {
+        "home": "Home",
+        "page/stock-tool": "pages\\StockTool",
+        "page/ui-package": "pages\\UiPackage",
+        "page/ig-bot": "pages\\IgBot",
+        "page/web-driver-loader": "pages\\ChromeDriverLoader"
+    }
+}

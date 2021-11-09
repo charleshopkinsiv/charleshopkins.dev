@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "84707f6b9819b5b24f35100c12f34649",
+    "packages": [
+        {
+            "name": "charleshopkinsiv/core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/charleshopkinsiv/core.git",
+                "reference": "8b90e9f02372b62c74ac9fefd0c80ce65e767803"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/charleshopkinsiv/core/zipball/8b90e9f02372b62c74ac9fefd0c80ce65e767803",
+                "reference": "8b90e9f02372b62c74ac9fefd0c80ce65e767803",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "core\\": "src",
+                    "core\\commands\\": "/commands"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charles Hopkins",
+                    "email": "charleshopkinsiv@gmail.com"
+                }
+            ],
+            "description": "A useful package for many different types of applications.",
+            "support": {
+                "issues": "https://github.com/charleshopkinsiv/core/issues",
+                "source": "https://github.com/charleshopkinsiv/core/tree/main"
+            },
+            "time": "2021-11-04T02:37:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "charleshopkinsiv/core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
