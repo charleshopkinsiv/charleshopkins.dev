@@ -50,7 +50,7 @@
 
 
           <div class="col">
-            <a class="text-white" href="/page/chrome-driver-loader">
+            <a class="text-white" href="/page/web-driver-loader">
               <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                   <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Web Driver Loader</h4>
@@ -88,7 +88,7 @@
 
 
           <div class="col">
-            <a class="text-white" href="/page/stock-tool">
+            <a class="text-white" href="/page/ig-bot">
               <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                   <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Instagram Marketing Bot</h4>
