@@ -19,7 +19,7 @@
 
             <div class="w-100 text-center">
 
-                <a href="" target="_BLANK" class="btn btn-primary">View Stock Tool</a>
+                <a href="" target="_BLANK" class="btn btn-primary disabled">View Stock Tool</a>
 
             </div>
         </div>

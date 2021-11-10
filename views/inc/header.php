@@ -1,11 +1,11 @@
 <div class="container-fluid bg-dark py-5">
 
-    <!-- <ul class="list-inline text-end">
+    <ul class="list-inline">
 
-        <li class="list-inline-item"><a class="text-white" href="/">Home</a></li>
+        <?php if($this->getTitle() != "Charles Hopkins Developer : Home") : ?>
+            <li class="list-inline-item"><a class="text-white" href="/">Home</a></li>
+        <?php endif; ?>
 
-        <li class="list-inline-item"><a class="text-white" href="/projects">Projects</a></li>
-
-    </ul> -->
+    </ul>
 
 </div>

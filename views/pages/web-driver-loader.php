@@ -21,7 +21,7 @@
 
         <div class="w-100 text-center">
 
-            <a href="" target="_BLANK" class="btn btn-primary">View Web Driver Loader</a>
+            <a href="" target="_BLANK" class="btn btn-primary disabled">View Web Driver Loader</a>
 
         </div>
     </div>

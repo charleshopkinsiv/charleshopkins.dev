@@ -21,7 +21,7 @@
 
         <div class="w-100 text-center">
 
-            <a href="" target="_BLANK" class="btn btn-primary">View Ig Bot</a>
+            <a href="https://github.com/charleshopkinsiv/igbot" target="_BLANK" class="btn btn-primary">View Ig Bot</a>
 
         </div>
     </div>

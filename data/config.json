@@ -6,6 +6,6 @@
         "page/stock-tool": "pages\\StockTool",
         "page/ui-package": "pages\\UiPackage",
         "page/ig-bot": "pages\\IgBot",
-        "page/web-driver-loader": "pages\\ChromeDriverLoader"
+        "page/web-driver-loader": "pages\\WebDriverLoader"
     }
 }

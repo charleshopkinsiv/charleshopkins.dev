@@ -21,7 +21,7 @@
 
         <div class="w-100 text-center">
 
-            <a href="" target="_BLANK" class="btn btn-primary">View Ui Package</a>
+            <a href="https://github.com/charleshopkinsiv/ui" target="_BLANK" class="btn btn-primary">View Ui Package</a>
 
         </div>
     </div>
