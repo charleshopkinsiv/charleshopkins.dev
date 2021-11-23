@@ -1,0 +1,220 @@
+
+@keyframes jetFly {
+  0% {
+    transform: translate(-10rem, 0); }
+  50% {
+    transform: translate(50vw, 0); }
+  100% {
+    transform: translate(100vw, 0); } }
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(0);
+    text-shadow: 0 -.2rem  .4rem  #000; }
+  25% {
+    transform: translateX(6rem);
+    text-shadow: -.4rem -.2rem  .4rem  #000; }
+  50% {
+    transform: translateX(0);
+    text-shadow: 0 -.2rem  .4rem  #000; }
+  75% {
+    transform: translateX(-6rem);
+    text-shadow: .4rem -.2rem  .4rem  #000; }
+  100% {
+    transform: translateX(0);
+    text-shadow: 0 -.2rem  .4rem  #000; } }
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-50vw); }
+  100% {
+    transform: translateX(0); } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  background: url(/public/images/space.jpg) center top fixed #000;
+  background-size: cover; }
+  @media (max-width: 768px) {
+    html {
+      background-size: auto 100vh;
+      background: url(/public/images/space-mobile.jpg) center top fixed #000; } }
+
+body {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: url(/public/images/charles-hopkins-ventura-hills.png) no-repeat center bottom;
+  background-size: contain;
+  width: 100%;
+  min-height: 120vh; }
+
+.header-bar {
+  width: 100%;
+  background: linear-gradient(to top, #000, #fff);
+  border: .4rem solid #000;
+  text-align: center; }
+  .header-bar::after {
+    content: "";
+    clear: both;
+    display: table; }
+  .header-bar a {
+    text-decoration: none; }
+    .header-bar a h1 {
+      text-shadow: 0 0 .8rem #000;
+      animation: leftToRight 20s infinite linear;
+      margin-bottom: 0; }
+
+#top-sky {
+  background-image: linear-gradient(#2678c1 0%, rgba(255, 255, 255, 0.9) 30%, rgba(38, 120, 193, 0.8) 83%, rgba(0, 0, 0, 0));
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px -.4rem  .4rem  #000;
+  color: #fff;
+  line-height: 1;
+  height: 100vh; }
+  @media (max-width: 992px) {
+    #top-sky {
+      height: auto;
+      min-height: 100vh; } }
+  #top-sky h1 {
+    font-family: "Oleo Script",cursive;
+    font-size: 3.6rem;
+  }
+  #top-sky h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.4rem; }
+  @media only screen and (min-width: 768px) {
+    #top-sky h1, #top-sky h3 {
+      animation: leftToRight 20s linear infinite; } }
+  #top-sky #jet {
+    z-index: 89;
+    overflow-x: hidden;
+    height: 31px;
+    position: absolute;
+    left: 0;
+    top: 10rem;
+    animation: jetFly 10s infinite linear; }
+
+#top-content {
+  border: .4rem solid #000;
+  background: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 .15rem .4rem #fff;
+  animation: slideInLeft 10s;
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+  border-radius: .8rem; }
+  #top-content .w-50, #top-content .w-33, #top-content .w-25 {
+    padding: 1.6rem; }
+  #top-content h4 {
+    color: #000;
+    text-align: left; }
+  #top-content a {
+    color: #004683; }
+    #top-content a:hover {
+      color: #000;
+      text-decoration: none; }
+
+#projects {
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem; }
+  #projects .carousel-cell.home-car {
+    width: 25%;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+      #projects .carousel-cell.home-car {
+        width: 70%;
+        margin: auto 15%; } }
+    #projects .carousel-cell.home-car:hover {
+      opacity: .5; }
+    #projects .carousel-cell.home-car:active {
+      opacity: .1; }
+    #projects .carousel-cell.home-car p {
+      font-family: "Oleo Script", cursive;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), white);
+      color: #000;
+      border-left: 0.05rem solid gray;
+      border-right: 0.05rem solid gray; }
+    #projects .carousel-cell.home-car h3 {
+      color: #fff; }
+    #projects .carousel-cell.home-car a {
+      color: #fff;
+      text-decoration: none; }
+    #projects .carousel-cell.home-car img {
+      width: 100%; }
+      #projects .carousel-cell.home-car img:hover {
+        opacity: 1; }
+
+
+.site-main {
+  background: #fff; }
+  .site-main a {
+    color: #004683; }
+    .site-main a:hover {
+      color: #000;
+      text-decoration: none; }
+  .site-main .article-header {
+    border: 1.2rem solid #fff; }
+  .site-main .entry-header h1 {
+    color: #000;
+    text-shadow: 0 0 .8rem #fff; }
+  .site-main .entry-meta {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    border-top: .8rem solid #fff; }
+    .site-main .entry-meta h4 {
+      display: inline; }
+      .site-main .entry-meta h4 a {
+        text-decoration: none; }
+  .site-main .entry-content, .site-main .navigation, .site-main #comments {
+    padding: 3.2rem; }
+  .site-main article p {
+    margin-bottom: 4.8rem; }
+  .site-main article img {
+    margin: auto; }
+  .site-main h1, .site-main h2, .site-main h3, .site-main h4 {
+    color: #707070;
+    line-height: .7; }
+  .site-main #comments::after {
+    content: "";
+    clear: both;
+    display: table; }
+  .site-main #comments textarea {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    padding: 1.2rem 1.6rem;
+    margin: .8rem auto;
+    border-radius: .8rem;
+    border: solid 1px #000;
+    opacity: .9; }
+  .site-main #comments input[type=submit] {
+    padding: .8rem 1.6rem;
+    font-size: 1.6rem;
+    float: right;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: .8rem; }
+    .site-main #comments input[type=submit]:hover {
+      transform: translateY(-0.4rem);
+      opacity: .9;
+      cursor: pointer; }
+    .site-main #comments input[type=submit]:active {
+      transform: translateY(-0.2rem);
+      opacity: .5; }
+
+.bg-opdark {
+  background: rgba(0,0,0,.5);
+  color: #fff;
+}

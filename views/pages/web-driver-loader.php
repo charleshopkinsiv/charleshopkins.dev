@@ -4,14 +4,14 @@
 <body>
     <?php require __DIR__ . "/../inc/header.php"; ?>
 
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container col-xxl-8 px-4 py-5 bg-opdark">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <!-- <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> -->
             </div>
             <div class="col-lg-6">
                 <h1 class="display-5 fw-bold lh-1 mb-3">Web Driver Loader</h1>
-                <p class="lead">This tool was built to help me analyze the stock market. Data is updated every day as the market closes. It was built to allow me to easily add new calculations. I also have a way to come up with different trading rules and back test over historical data. The end goal of this project is an automated trading system that uses machine learning to find, program and test trading rules.</p>
+                <p class="lead">This is a simple loader Facebooks Selenium wrapper. I plan to add functionality to download the correct webdriver binary (chromedriver, geckodriver) for the users system.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                     <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button> -->
                     <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
@@ -21,7 +21,7 @@
 
         <div class="w-100 text-center">
 
-            <a href="" target="_BLANK" class="btn btn-primary disabled">View Web Driver Loader</a>
+            <a href="" target="_BLANK" class="btn btn-light disabled">View Web Driver Loader</a>
 
         </div>
     </div>
