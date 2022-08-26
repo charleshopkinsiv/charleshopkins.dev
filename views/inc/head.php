@@ -22,7 +22,9 @@
 
   <link href="https://fonts.googleapis.com/css?family=Oleo+Script:700|Raleway:500&amp;display=swap" rel="stylesheet">
 
-  <title>Hello, world!</title>
+  <link rel="icon" href="/public/images/icon.png">
+
+  <title>Charles Hopkins Development</title>
 </head>
 
 

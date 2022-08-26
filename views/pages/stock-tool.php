@@ -19,7 +19,7 @@
 
             <div class="w-100 text-center">
 
-                <a href="" target="_BLANK" class="btn btn-light disabled">View Stock Tool</a>
+                <a href="http://hopkins.holdings/tickers" target="_BLANK" class="btn btn-light">View Stock Tool</a>
 
             </div>
         </div>
