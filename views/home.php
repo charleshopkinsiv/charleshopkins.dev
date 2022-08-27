@@ -177,10 +177,12 @@
             </div>
           </a>
         </div>
-
       </div>
-
       </div>
+    </div>
+
+    <div class="w-100 text-center my-5">
+      <a href="https://blog.charleshopkins.dev" target="_BLANK" class="btn btn-light btn-lg my-5">Blog</i></a>
     </div>
 
     <div class="col-fluid text-center bg-opdark">
