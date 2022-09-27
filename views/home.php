@@ -40,7 +40,7 @@
       <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
 
         <div class="col">
-          <a class="text-white" href="/page/scoreswag">
+          <a class="text-white" href="/page/cl-autoposter">
             <div class="card card-cover h-100 overflow-hidden text-white bg-opdark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Craigslist Auto Poster</h4>
@@ -61,10 +61,10 @@
         </div>
 
         <div class="col">
-          <a class="text-white" href="/page/ig-bot">
+          <a class="text-white" href="/page/mail-cannon">
             <div class="card card-cover h-100 overflow-hidden text-white bg-opdark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">MailCannon</h4>
+                <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Open Source Email Marketing Software</h4>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="d-flex align-items-center me-3">
                     <small>PHP</small>

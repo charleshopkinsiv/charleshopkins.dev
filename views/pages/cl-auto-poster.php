@@ -34,7 +34,8 @@
                     <li>Membership System</li>
                     <li>Payment Processing With Stripe</li>
                     <li>Craigslist Automation with Selenium</li>
-                    <li>IMAP Email Management with Java</li>
+                    <li>Gmail Email Management with Java</li>
+                    <li>Craigslist Account Management System/Dashboard Employees</li>
                     <li>Built with Laravel</li>
                 </ul>
 
@@ -48,6 +49,7 @@
                     <li>Laravel</li>
                     <li>Java</li>
                     <li>JavaScript</li>
+                    <li>Gmail Imap/SMTP/OAuth2</li>
                 </ul>
 
             </div>

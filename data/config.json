@@ -10,7 +10,7 @@
         "page/web-driver-loader": "pages\\WebDriverLoader",
         "page/dating-bot": "pages\\DatingBot",
         "page/scoreswag": "pages\\Scoreswag",
-        "page/cl-auto-poster": "pages\\ClAutoPoster",
+        "page/cl-autoposter": "pages\\ClAutoPoster",
         "page/mail-cannon": "pages\\MailCannon"
     }
 }
